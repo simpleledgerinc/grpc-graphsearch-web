@@ -1,11 +1,11 @@
-# SLP Graph Search gRPC Interface for Node.js Clients
+# SLP Graph Search gRPC Interface for web and node.js clients
 
 
 ## Install
 `npm i grpc-graphsearch-web`
 
 #### web browser
-`<script src='https://unpkg.com/grpc-gs++'></script>`
+`<script src='https://unpkg.com/grpc-gs'></script>`
 
 
 ### Build from source (from `./bchrpc.proto`)
@@ -26,14 +26,4 @@ res.forEach(i => console.log(res.getTxdataList_asU8());
 
 ## Change Log
 
-### 0.1.3
-- Update default URL to gs.fountainhead.cash
-- Update default parameters
-
-### 0.1.0
-- Updated proto file
-- Added 'reveredHashOrder' and 'excludeList' options to graphSearchFor() client method
-- Updated package name
-
-### 0.0.1
-- Create promise based method for graphSearch(txid);
+No npm packages published yet
